@@ -1,107 +1,168 @@
-body{
-    font-family: 'Karla', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
-h1{
-    font-family: 'DM Serif Display', serif;
-
+h1 {
+  font-family: "DM Serif Display", serif;
 }
-.container-fluid{
-    padding: 0.9% 7%;
+.container-fluid {
+  padding: 0.9% 10%;
 }
-hr{
-    border-style: none;
-    border-top: solid 1px;
-    width: 20%;
-    margin-left: 0;
-    margin-bottom: 2.5rem;
+hr {
+  border-style: none;
+  border-top: solid 1px;
+  width: 20%;
+  margin-left: 0;
+  margin-bottom: 2.5rem;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
+h3{
+    font-family: "DM Serif Display", serif;
+}
+/* .row{
+    margin: 0;
+} */
 /************************** TITLE ***************************/
-
-.title-pattern-right{
-    position: absolute;
-    z-index: 2;
-    right: 0; 
-    width: 28.5%; 
+.title-pattern-right {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  width: 489.594px;
+  height: 528.625px;
 }
-#title .nav-title{
-    background-color: white;
-    position: relative;
-    z-index: 3;
+#title .nav-title {
+  background-color: white;
+  position: relative;
+  z-index: 3;
 }
-
 /* NAVBAR */
-nav{
-    background-color: white;
+nav {
+  background-color: white;
 }
-.nav-item{
-    margin-right: 20px;
+.nav-item {
+  margin-right: 20px;
 }
-.nav-link{
-    color: hsl(273, 4%, 51%);
+.nav-link {
+  color: hsl(273, 4%, 51%);
 }
-.nav-link:hover{
-    color: hsl(270, 9%, 17%);
+.nav-link:hover {
+  color: hsl(270, 9%, 17%);
 }
-#plans-link{
-    border: 2px solid hsl(270, 9%, 17%);
-    padding: 0.3rem 2rem;
-    color:hsl(270, 9%, 17%);
+#plans-link {
+  border: 2px solid hsl(270, 9%, 17%);
+  padding: 0.3rem 2rem;
+  color: hsl(270, 9%, 17%);
 }
-#plans-link:hover{
-    background-color: hsl(270, 9%, 17%);
-    color: white;
+#plans-link:hover {
+  background-color: hsl(270, 9%, 17%);
+  color: white;
 }
 
 /* Main Content */
 
-.main-content{
-    background-color: hsl(256, 26%, 20%);
-    text-align: left; 
+.main-content {
+  background-color: hsl(256, 26%, 20%);
+  text-align: left;
+  position: relative;
+  z-index: 1;
 }
-.main-content .container-fluid{
-    padding-top: 4%;
-    padding-bottom: 4%;
+.main-content .container-fluid {
+  padding-top: 4.5%;
+  padding-bottom: 10%;
 }
-/* .intro-img{
-    position: absolute;
-    z-index: 1; 
-} */
-/* .title-pattern-left{
-    
-} */
-.main-content-hr{
-    border-color: white;
+.intro-img {
+  position: absolute;
+  z-index: 1;
+  height: 200%;
 }
-.main-content-head{
-    color: white;
-    width: 60%;
-    font-size: 3rem;
+.title-pattern-left {
+  position: absolute;
+  top: 438px;
+  z-index: 1;
 }
-.main-content-text{
-    color: white;
-    width: 90%;
-    padding-bottom: 1rem;
+.main-content-hr {
+  border-color: white;
 }
-.col-lg-6 #plans-link{
-    border-color: white;
-    color: white;
+.main-content-head {
+  color: white;
+  width: 60%;
+  font-size: 3rem;
 }
-.col-lg-6 #plans-link:hover{
-    background-color: white;
-    color:  hsl(270, 9%, 17%) ;
+.main-content-text {
+  color: white;
+  width: 90%;
+  padding-bottom: 1rem;
+}
+.col-lg-6 #plans-link {
+  border-color: white;
+  color: white;
+}
+.col-lg-6 #plans-link:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
 }
 
 /************************** FEATURE ***************************/
 
-#feature{
-    background-color: white;
-    /* position: relative; */
+#feature {
+  background-color: white;
+  padding-top: 21%;
 }
+.main-ft{
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+.ft-icon{
+    width: 20%;
+    padding-bottom: 6.5%;
+}
+.ft-text{
+    color: hsl(0, 0%, 69%);
+    margin-top: 1rem;
+}
+
+/**************************  Work  ***************************/
+
+#work{
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+#work .container-fluid{
+    padding: 0;
+    background-color: hsl(256, 26%, 20%);
+}
+.work-row{
+    margin: 0;
+    padding: 6%;
+}
+.work-hd{
+    color: white;
+    width: 75%;
+}
+.button-col{
+   padding: 45px 0 52px 310px;
+}
+.col-md-6 #plans-link {
+    border-color: white;
+    color: white;
+}
+.col-md-6 #plans-link:hover {
+    background-color: white;
+    color: hsl(270, 9%, 17%);
+}
+.pattern-work{
+   position: absolute;
+   right: 10%;
+   top: 0;
+   z-index: 2;
+   width: 450.719px;
+}
+
+/**************************  Work  ***************************/
