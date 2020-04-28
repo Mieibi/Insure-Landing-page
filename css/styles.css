@@ -12,7 +12,6 @@ h1 {
 hr {
   border-style: none;
   border-top: solid 1px;
-  width: 20%;
   margin-left: 0;
   margin-bottom: 2.5rem;
 }
@@ -33,8 +32,8 @@ h3{
   position: absolute;
   z-index: 2;
   right: 0;
-  width: 489.594px;
-  height: 528.625px;
+  width: 28.8%;
+  /* height: ; */
 }
 #title .nav-title {
   background-color: white;
@@ -73,13 +72,13 @@ nav {
   z-index: 1;
 }
 .main-content .container-fluid {
-  padding-top: 4.5%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 11.5%;
 }
 .intro-img {
   position: absolute;
   z-index: 1;
-  height: 200%;
+
 }
 .title-pattern-left {
   position: absolute;
@@ -88,6 +87,7 @@ nav {
 }
 .main-content-hr {
   border-color: white;
+  width: 20%;
 }
 .main-content-head {
   color: white;
@@ -114,9 +114,13 @@ nav {
   background-color: white;
   padding-top: 21%;
 }
+.feature-hr{
+    width: 20%;
+    border-color:hsl(0, 0%, 81%) ;
+}
 .main-ft{
     padding-top: 4%;
-    padding-bottom: 7%;
+    padding-bottom: 9%;
 }
 .ft-icon{
     width: 20%;
@@ -137,6 +141,7 @@ nav {
 #work .container-fluid{
     padding: 0;
     background-color: hsl(256, 26%, 20%);
+    position: relative; 
 }
 .work-row{
     margin: 0;
@@ -152,6 +157,8 @@ nav {
 .col-md-6 #plans-link {
     border-color: white;
     color: white;
+    position: relative;
+    z-index: 3;
 }
 .col-md-6 #plans-link:hover {
     background-color: white;
@@ -161,8 +168,58 @@ nav {
    position: absolute;
    right: 10%;
    top: 0;
-   z-index: 2;
-   width: 450.719px;
+   z-index: 1;
+   width: 450.495px;
 }
 
-/**************************  Work  ***************************/
+/**************************  footer ***************************/
+
+#footer{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 9%;
+    position: relative;
+}
+#footer .container-fluid{
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    position: relative;
+    z-index: 2;
+}
+.logo-footer{
+    margin-right: 868px;
+}
+.social-icons{
+    margin-left: 9px;
+    color: #837D88; 
+}
+.social-icons:hover{
+    color: hsl(256, 26%, 20%); 
+}
+.footer-hr{
+    border-color:hsl(0, 0%, 81%) ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-hd{
+    color:  hsl(273, 4%, 51%);
+    margin-bottom: 1.3rem;
+}
+.col-md-3 .row{
+    margin-bottom: 6px;
+}
+.footer-links{
+    color: hsl(256, 26%, 20%);
+}
+.footer-links:hover{
+    color: initial;
+    text-decoration: underline;
+}
+.attribution{
+    text-align: center;
+    margin-top: 3%;
+    color: hsl(256, 26%, 20%);
+}
+.pattern-footer{
+    position: absolute;
+    height: 47%;
+}
