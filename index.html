@@ -12,14 +12,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    
+
     <!-- FONT AWESOME -->
 
     <script
       src="https://kit.fontawesome.com/dd9b22afbb.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <!-- GOOGLE FONTS -->
 
     <link
@@ -59,11 +59,19 @@
   </head>
   <body>
     <section id="title">
-      <img
-        class="title-pattern-right"
-        src="images/bg-pattern-intro-right-desktop.svg"
-        alt="pattern"
-      />
+      <picture >
+        <source
+          
+          srcset="images/bg-pattern-intro-right-desktop.svg"
+          media="(min-width: 992px)"
+        />
+        <img
+          src="images/bg-pattern-intro-right-mobile.svg"
+          alt="pattern"
+          class="title-pattern-right"
+        />
+      </picture>
+
       <div class="container-fluid nav-title">
         <!-- NAVBAR -->
 
@@ -126,11 +134,17 @@
           </div>
         </div>
       </div>
-      <img
-        class="title-pattern-left"
-        src="images/bg-pattern-intro-left-desktop.svg"
-        alt="pattern"
-      />
+      <picture class="title-pattern-left">
+        <source
+          srcset="images/bg-pattern-intro-left-desktop.svg"
+          media="(min-width:992px)"
+          
+        />
+        <img
+          src="images/bg-pattern-intro-left-mobile.svg"
+          alt="pattern"
+        />
+      </picture>
     </section>
     <!-- Feature -->
 
@@ -202,9 +216,13 @@
     <!-- Footer -->
 
     <section id="footer">
-      <img class= "pattern-footer"src="images/bg-pattern-footer-desktop.svg" alt="pattern-footer">
+      <img
+        class="pattern-footer"
+        src="images/bg-pattern-footer-desktop.svg"
+        alt="pattern-footer"
+      />
       <div class="container-fluid">
-        <div>
+        <div class="logo-social">
           <img class="logo-footer" src="images/logo.svg" alt="logo" />
 
           <span>
@@ -234,7 +252,7 @@
         <hr class="footer-hr" />
         <div class="row">
           <div class="col-md-3">
-            <p class = "footer-hd">OUR COMPANY</p>
+            <p class="footer-hd">OUR COMPANY</p>
             <div class="row">
               <div class="col">
                 <a class="footer-links" href="#">How we work</a>
@@ -257,7 +275,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <p class = "footer-hd">HELP ME</p>
+            <p class="footer-hd">HELP ME</p>
             <div class="row">
               <div class="col">
                 <a class="footer-links" href="#">FAQ</a>
@@ -280,7 +298,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <p class = "footer-hd">CONTACT</p>
+            <p class="footer-hd">CONTACT</p>
             <div class="row">
               <div class="col">
                 <a class="footer-links" href="#">Sales </a>
@@ -298,7 +316,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <p class = "footer-hd">OTHERS</p>
+            <p class="footer-hd">OTHERS</p>
             <div class="row">
               <div class="col">
                 <a class="footer-links" href="#">Careers</a>
@@ -311,14 +329,17 @@
             </div>
             <div class="row">
               <div class="col">
-                <a class="footer-links" href="#">Licenses</a> 
+                <a class="footer-links" href="#">Licenses</a>
               </div>
             </div>
           </div>
         </div>
         <div class="attribution">
           Challenge by
-          <a class="footer-links" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          <a
+            class="footer-links"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
             >Frontend Mentor</a
           >. Coded by <a class="footer-links" href="#">Omieibi Amapakabo</a>.
         </div>
