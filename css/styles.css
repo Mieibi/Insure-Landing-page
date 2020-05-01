@@ -1,3 +1,245 @@
-.body{
-     
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+h1 {
+  font-family: "DM Serif Display", serif;
+}
+.container-fluid {
+  padding: 0.9% 10%;
+}
+hr {
+  border-style: none;
+  border-top: solid 1px;
+  margin-left: 0;
+  margin-bottom: 2.5rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+.row {
+  margin: 0;
+}
+/************************** TITLE ***************************/
+.title-pattern-right {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  width: 29%;
+  /* height: ; */
+}
+#title .nav-title {
+  background-color: white;
+  position: relative;
+  z-index: 3;
+}
+/* NAVBAR */
+nav {
+  background-color: white;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.nav-link {
+  color: hsl(273, 4%, 51%);
+}
+.nav-link:hover {
+  color: hsl(270, 9%, 17%);
+}
+#plans-link {
+  border: 2px solid hsl(270, 9%, 17%);
+  padding: 0.3rem 2rem;
+  color: hsl(270, 9%, 17%);
+}
+#plans-link:hover {
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+}
+
+/* Main Content */
+
+.main-content {
+  background-color: hsl(256, 26%, 20%);
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.main-content .container-fluid {
+  padding-top: 5%;
+  padding-bottom: 9%;
+}
+.intro-img {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+}
+.title-pattern-left {
+  position: absolute;
+  top: 500px;
+  z-index: 1;
+  width: 29%;
+}
+.main-content-hr {
+  border-color: white;
+  width: 20%;
+}
+.main-content-head {
+  color: white;
+  width: 60%;
+  font-size: 3rem;
+}
+.main-content-text {
+  color: white;
+  width: 90%;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+.col-lg-6 #plans-link {
+  border-color: white;
+  color: white;
+}
+.col-lg-6 #plans-link:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+
+/************************** FEATURE ***************************/
+
+#feature {
+  background-color: white;
+  padding-top: 21%;
+}
+.feature-hr {
+  width: 20%;
+  border-color: hsl(0, 0%, 81%);
+}
+.main-ft {
+  padding-top: 4%;
+  padding-bottom: 9%;
+}
+.ft-icon {
+  width: 20%;
+  padding-bottom: 6.5%;
+}
+.ft-text {
+  color: hsl(0, 0%, 69%);
+  margin-top: 1rem;
+}
+.col-md-4 {
+  padding-left: 0;
+}
+/**************************  Work  ***************************/
+
+#work {
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+}
+#work .container-fluid {
+  padding: 0;
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+}
+.work-row {
+  margin: 0;
+  padding: 6%;
+}
+.work-hd {
+  color: white;
+  width: 75%;
+}
+.button-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8px;
+}
+.col-md-6 #plans-link {
+  border-color: white;
+  color: white;
+  position: relative;
+  z-index: 3;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-md-6 #plans-link:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+.pattern-work {
+  position: absolute;
+  right: 10%;
+  top: 0;
+  z-index: 1;
+  width: 29.2%;
+  height: 100%;
+}
+
+/**************************  footer ***************************/
+
+#footer {
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 9%;
+  position: relative;
+}
+#footer .container-fluid {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  position: relative;
+  z-index: 2;
+}
+.logo-social {
+  display: flex;
+}
+.logo-footer {
+  margin-right: auto;
+}
+.social-icons {
+  margin-left: 9px;
+  color: #837d88;
+}
+.social-icons:hover {
+  color: hsl(256, 26%, 20%);
+}
+.footer-hr {
+  border-color: hsl(0, 0%, 81%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-hd {
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 1.3rem;
+}
+.col-md-3 .row {
+  margin-bottom: 6px;
+}
+.footer-links {
+  color: hsl(256, 26%, 20%);
+}
+.footer-links:hover {
+  color: initial;
+  text-decoration: underline;
+}
+.attribution {
+  text-align: center;
+  margin-top: 3%;
+  color: hsl(256, 26%, 20%);
+}
+.pattern-footer {
+  position: absolute;
+  height: 47%;
+  width: 29%;
+}
+.col-md-3 {
+  padding: 0;
+}
+.col {
+  padding: 0;
 }
