@@ -258,7 +258,7 @@ h3 {
   display:none;
 }
 
-@media (max-width: 1024px) and (min-width: 768px){
+@media (max-width: 1024px) and (min-width: 992px){
   #feature{
     padding-top: 23%;
   }
@@ -269,9 +269,7 @@ h3 {
     padding-right:0;
   }
 }
-
-
-@media (max-width:768px) and (min-width:576px){
+@media(max-width:991px) and (min-width:769px){
   body{
     text-align: center;
   }
@@ -327,8 +325,67 @@ h3 {
     padding: 0.5rem 5rem;
   }
   .nav-img{
-    display: block;
-    width: 100%;
+    display: none;
+  }
+}
+
+@media (max-width:767px) and (min-width:576px){
+  body{
+    text-align: center;
+  }
+  .nav-title{
+    padding: 0;
+  }
+  .navbar{
+    padding: 0;
+  }
+  .navbar-brand{
+    margin-left: 10%;
+  }
+  .navbar-toggler{
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar-light .navbar-toggler{
+    border: 1px solid  hsl(270, 9%, 17%);
+    border-radius: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  button:focus{
+    outline: 1px solid;
+  }
+  .navbar-nav{
+    padding-top: 40px;
+    padding-bottom: 80px; ;
+  }
+  .navbar-collapse{
+    background-color:hsl(270, 9%, 17%) ;
+  }
+  .plan-nav{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-list{
+    margin-right: 0;
+  }
+  .nav-item{
+    margin-bottom: 20px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  #plans-link {
+    border-color:  white;
+    color: white;
+    padding: 0.5rem 5rem;
+  }
+  .nav-img{
+    display: none;
   }
   .intro-img {
     position: static;
