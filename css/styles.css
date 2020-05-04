@@ -327,6 +327,11 @@ h3 {
   .nav-img{
     display: none;
   }
+  .pattern-footer {
+    width: 45%;
+    height: 15%;
+    left: 0;
+  }
 }
 
 @media (max-width:767px) and (min-width:576px){
