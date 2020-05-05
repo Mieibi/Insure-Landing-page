@@ -61,11 +61,11 @@
     <section id="title">
       <picture>
         <source
-          srcset="images/bg-pattern-intro-right-desktop.svg"
-          media="(min-width: 768px)"
+          srcset="images/bg-pattern-intro-right-mobile.svg"
+          media="(max-width: 768px)"
         />
         <img
-          src="images/bg-pattern-intro-right-mobile.svg"
+          src="images/bg-pattern-intro-right-desktop.svg"
           alt="pattern"
           class="title-pattern-right"
         />
@@ -137,12 +137,16 @@
               />
             </div>
           </div>
-          <picture class="title-pattern-left">
+          <picture>
             <source
-              srcset="images/bg-pattern-intro-left-desktop.svg"
-              media="(min-width:768px)"
+              srcset="images/bg-pattern-intro-left-mobile.svg"
+              media="(max-width:768px)"
             />
-            <img src="images/bg-pattern-intro-left-mobile.svg" alt="pattern" />
+            <img
+              class="title-pattern-left"
+              src="images/bg-pattern-intro-left-desktop.svg"
+              alt="pattern"
+            />
           </picture>
         </div>
       </div>
