@@ -334,7 +334,7 @@ h3 {
   }
 }
 
-@media (max-width:767px) and (min-width:576px){
+@media (max-width:767px) and (min-width:516px){
   body{
     text-align: center;
   }
@@ -462,7 +462,7 @@ h3 {
 }
 
 
-@media (max-width: 575px){
+@media (max-width: 515px){
   body{
     text-align: center;
   }
