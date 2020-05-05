@@ -557,6 +557,7 @@ h3 {
   }
   .title-pattern-left {
     top: 38.7rem;
+    transform: translate(0, -43%);
   }
   #feature {
     padding-bottom: 70px;
